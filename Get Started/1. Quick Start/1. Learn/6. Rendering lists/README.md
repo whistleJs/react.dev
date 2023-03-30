@@ -1,7 +1,7 @@
 ## Rendering lists
 > 리스트 렌더링
 
-You will rely on JavaScript features like [`for` loop]() and the [array `map()` function]() to render lists of components.
+You will rely on JavaScript features like [`for` loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) and the [array `map()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to render lists of components.
 > `for` 반복문과 배열 `map()` 함수를 이용하여 컴포넌트 리스트를 렌더링할 수 있습니다.  
 
 For example, let's say you have an array of products:
