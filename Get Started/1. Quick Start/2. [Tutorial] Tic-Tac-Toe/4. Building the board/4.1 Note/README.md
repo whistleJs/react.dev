@@ -1,0 +1,2 @@
+Pssst...That's a lot to type! It's okay to copy and paste code from this page. However, if you're up for a little challenge, we recommend only copying code that you've manually typed at least once yourself.
+> 흠...타이핑이 너무 많아요! 이 페이지에선 코드를 복사-붙여넣기해도 괜찮습니다. 그러나 작은 도전에도 도전하고 있다면, 적어도 한 번은 스스로 코드를 타이핑해보는 것을 추천드립니다.
