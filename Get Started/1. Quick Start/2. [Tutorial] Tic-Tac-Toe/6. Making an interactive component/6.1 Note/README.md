@@ -1,0 +1,2 @@
+If you are following this tutorial using your local development environment, you need to open your browser's Console. For example, if you use the Chrome browser, you can view the Console with the keyboard shortcut **Shift + Ctrl + J** (on Windows/Linux) or **Option + Command + J** (on macOS).
+> 이 튜토리얼을 따라오면서 로컬 개발 환경을 사용 중이라면 브라우저 Console을 열어야 합니다. 예를 들어, Chrome 브라우저를 사용한다면 키보드 단축키인 **Shift + Ctrl + J** (Windows/Linux에서) 또는 **Option + Command + J**(macOS에서)를 사용하면 Console을 볼 수 있습니다.
