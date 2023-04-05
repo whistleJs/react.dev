@@ -1,0 +1,2 @@
+JavaScript supports [closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) which means an inner function (e.g `handleClick`) has access to variables and functions defined in a outer function (e.g `Board`). The `handleClick` function can read the `squares` state and call the `setSquares` method because they are both defined inside of the `Board` function.
+> JavaScript는 내부 함수(예. `handleClick`)가 외부 함수(예. `Board`)에 정의된 변수와 함수에 접근할 수 있는 closures를 지원합니다. `Board` 함수 안에 모두 정의되었기 때문에 `handleClick` 함수는 `squares` state를 읽을 수 있고 `setSquares` 함수를 호출할 수 있습니다.
