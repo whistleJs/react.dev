@@ -78,7 +78,7 @@ The CSS defined in `styles.css` styles the divs with the `className` of `board-r
 <img src="https://user-images.githubusercontent.com/42595869/229288252-32dbad3a-642f-4142-b125-5c3104865ecf.png" width="300" height="auto">
 
 But you now have a problem. Your component named `Square`, really isn't a square anymore. Let's fix that by changing the named to `Board`.
-> 하짐나 문제가 하나 있습니다. 컴포넌트 이름이 `Sqaure`입니다, 이젠 더 이상 사각형이 아닙니다. `Board`로 이름을 변경하여 고칩시다.  
+> 하짐나 문제가 하나 있습니다. 컴포넌트 이름이 `Square`입니다, 이젠 더 이상 사각형이 아닙니다. `Board`로 이름을 변경하여 고칩시다.  
 
 ```tsx
 export default function Board() {

@@ -57,10 +57,10 @@ Oh no! You lost the numbered squares you had before. Now each square says "1". T
 > 오 이런! 사각형에 번호를 매기는 것을 잊어버렸습니다. 지금은 각 사각형마다 "1"를 보여주고 있습니다. 이것을 고치려면 부모 컴포넌트(`Board`)에서 자식 컴포넌트(`Square`)에게 *prop*를 사용하여 값을 넘겨주어야 합니다.
 
 Update the `Square` component to read the `value` prop that you'll pass from the `Board`:
-> `Board`로부터 `value` prop으로 읽을 수 있도록 `Sqaure` 컴포넌트를 변경합니다:
+> `Board`로부터 `value` prop으로 읽을 수 있도록 `Square` 컴포넌트를 변경합니다:
 
 ```tsx
-function Sqaure({ value }) {
+function Square({ value }) {
   return <button className="square">1</button>
 }
 ```

@@ -33,7 +33,7 @@ React provides a special function called `useState` that you can call from your 
 > React는 `useState`로 불리는 특별한 함수를 제공하는데 컴포넌트에서 호출하여 "기억"할 수 있게 할 수 있습니다. `Square` 안의 state에 현재 값을 저장하고 `Square`를 클릭했을 때 변경할 수 있도록 합니다.  
 
 Import `useState` at the top of the file. Remove the `value` prop from the `Square` component. Instead, add a new line at the start of the `Square` that calls `useState`. Have it return a state variable called `value`:
-> 파일 상단에 `useState`를 추가합니다. `Sqaure` 컴포넌트에서 `value` prop을 지웁니다. 대신에, `Square` 컴포넌트에서 시작하는 새로운 라인에 `useState`를 호출합니다. `value`라는 state 변수를 반환하도록 합니다.
+> 파일 상단에 `useState`를 추가합니다. `Square` 컴포넌트에서 `value` prop을 지웁니다. 대신에, `Square` 컴포넌트에서 시작하는 새로운 라인에 `useState`를 호출합니다. `value`라는 state 변수를 반환하도록 합니다.
 
 ```tsx
 import { useState } from 'react';

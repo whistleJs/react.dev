@@ -44,19 +44,19 @@ function Board({ xIsNext, squares, onPlay }) {
     <>
       <div className="status">{status}</div>
       <div className="board-row">
-        <Sqaure value={sqaures[0]} onSqaureClick={() => handleClick(0)} />
-        <Sqaure value={sqaures[1]} onSqaureClick={() => handleClick(1)} />
-        <Sqaure value={sqaures[2]} onSqaureClick={() => handleClick(2)} />
+        <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
+        <Square value={squares[1]} onSquareClick={() => handleClick(1)} />
+        <Square value={squares[2]} onSquareClick={() => handleClick(2)} />
       </div>
       <div className="board-row">
-        <Sqaure value={sqaures[3]} onSqaureClick={() => handleClick(3)} />
-        <Sqaure value={sqaures[4]} onSqaureClick={() => handleClick(4)} />
-        <Sqaure value={sqaures[5]} onSqaureClick={() => handleClick(5)} />
+        <Square value={squares[3]} onSquareClick={() => handleClick(3)} />
+        <Square value={squares[4]} onSquareClick={() => handleClick(4)} />
+        <Square value={squares[5]} onSquareClick={() => handleClick(5)} />
       </div>
       <div className="board-row">
-        <Sqaure value={sqaures[6]} onSqaureClick={() => handleClick(6)} />
-        <Sqaure value={sqaures[7]} onSqaureClick={() => handleClick(7)} />
-        <Sqaure value={sqaures[8]} onSqaureClick={() => handleClick(8)} />
+        <Square value={squares[6]} onSquareClick={() => handleClick(6)} />
+        <Square value={squares[7]} onSquareClick={() => handleClick(7)} />
+        <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
       </div>
     </>
   );
@@ -95,7 +95,7 @@ export default function Game() {
   return (
     <div className="game">
       <div className="game-board">
-        <Board xIsNext={xIsNext} sqaures={currentSquares} onPlay={handlePlay} />
+        <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
       <div className="game-info">
         <ol>{moves}</ol>
