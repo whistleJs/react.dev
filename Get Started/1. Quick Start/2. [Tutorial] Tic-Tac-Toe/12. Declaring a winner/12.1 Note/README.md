@@ -1,0 +1,2 @@
+It does not matter whether you define `calculateWinner` before or after the `Board`. Let's put it at the end so that you don't have to scroll past it every time you edit your components.
+> `calculateWinenr`를 `Board` 이전이거나 이후에 정의하던 상관 없습니다. 컴포넌트를 편집할 때마다 스크롤하여 지나치지 않도록 끝에 넣읍시다.
